@@ -1,0 +1,196 @@
+
+/*---All Media Query--------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1001px) 
+{
+   .Previous,.Next {font-size: 3vw !important;}
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 349px) 
+{
+   .Topic_Area h3{font-size: 18px;}
+   .carousel-caption {display: none !important;}
+   .Tutorials_Box{padding: 20px 20px 0px 20px !important;}
+   #Subject{width: auto !important; height: auto !important; min-width: 80px !important;}
+   #Subject img{margin-top: 5px !important; height: 50px !important; width: 50px !important;}
+   #Subject p{margin-bottom: 0px !important; font-size: 15px !important;}
+}
+
+@media screen and (max-width: 295px)
+{
+   .Topic_Area h3{font-size: 18px;}
+   .carousel-caption {display: none !important;}
+   .Tutorials_Box{padding: 20px 20px 0px 20px !important;}
+   #Subject{width: auto !important; height: auto !important; min-width: 70px !important;}
+   #Subject img{margin-top: 5px !important; height: 50px !important; width: 50px !important;}
+   #Subject p{margin-bottom: 0px !important; font-size: 13px !important;}
+   #More{width: 50px !important; font-size: 13px !important;}
+}
+
+@media screen and (max-width: 275px)
+{
+   .Topic_Area h3{font-size: 18px;}
+   .carousel-caption {display: none !important;}
+   .Tutorials_Box{padding: 20px 20px 0px 20px !important;}
+   #Subject{width: auto !important; height: auto !important; min-width: 60px !important;}
+   #Subject img{margin-top: 5px !important; height: 40px !important; width: 40px !important;}
+   #Subject p{margin-bottom: 0px !important; font-size: 11px !important;}
+   #More{width: 50px !important; font-size: 13px !important;}
+}
+
+@media screen and (max-width: 255px)
+{
+   .Topic_Area h3{font-size: 18px;}
+   .carousel-caption {display: none !important;}
+   .Tutorials_Box{padding: 20px 20px 0px 20px !important;}
+   #Subject{width: auto !important; height: auto !important; min-width: 50px !important;}
+   #Subject img{margin-top: 5px !important; height: 30px !important; width: 30px !important;}
+   #Subject p{margin-bottom: 0px !important; font-size: 9px !important;}
+   #More{width: 50px !important; font-size: 13px !important;}
+}
+
+@media screen and (max-width: 235px)
+{
+   .Topic_Area h3{font-size: 18px;}
+   .carousel-caption {display: none !important;}
+   .Tutorials_Box{padding: 20px 20px 0px 20px !important;}
+   #Subject{width: auto !important; height: auto !important; min-width: 90px !important;}
+   #Subject img{margin-top: 5px !important; height: 30px !important; width: 30px !important;}
+   #Subject p{margin-bottom: 0px !important; font-size: 16px !important;}
+   #More{width: 50px !important; font-size: 13px !important;}
+}
+
+@media screen and (max-width: 200px) 
+{
+   .Topic_Area h3{font-size: 12px !important;}
+   .carousel-caption {display: none !important;}
+   .Tutorials_Box{padding: 5px 5px 2px 5px !important;}
+   #Subject{width: auto !important; height: 20px !important; min-width: 70px !important;}
+   #Subject img{display: none !important;}
+   #Subject p{margin-bottom: 0px !important; font-size: 10px !important;}
+   #More{width: 50px !important; font-size: 10px !important;}
+}
+
+
+/*---Header Navbar----------------------------------------------------------------------------------------------------*/
+
+.banr{height: 100vh; width: 100%; background-position: center; background-size: cover; background-repeat: no-repeat;
+      background-image: linear-gradient(rgb(104, 202, 231),rgba(119, 199, 231, 0)),url(Images/home.jpg);
+      position: relative; color: #fff; padding: 300px 25px;}
+
+.nvbtn{background-color: white; border: 1px solid white;}
+
+#nvbr{background-color: #5bc0de; border: 0px solid #5bc0de; padding: 7px 0px 7px 0px;}
+
+#nblink li a{color:white; font-size:20px; border: 2px solid transparent; border-radius: 100px; 
+             margin: 2px; padding: 12px; letter-spacing: 2px; font-style: italic;}
+
+#nblink li a:hover {background-color:transparent; color: white; border:2px solid white; border-radius:100px;}
+
+#nblink li.active a {background-color: transparent !important; border: 2px solid white !important;}
+
+#logo{font-size: 40px; color: white; font-family: 'Times New Roman', Times, serif; display: flex;}
+
+#logo img{height :50px; width: 50px; margin-top: -17px;}
+
+
+/*---Others-----------------------------------------------------------------------------------------------------------*/
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.Typing{color: white; margin-top: 20%; font-size: 50px; font-family: 'Times New Roman';}
+
+.Part{padding-top:60px;}
+
+/*---Tutorials----------------------------------------------------------------------------------------------------*/
+
+.Title_H1{animation: blinker 1s linear infinite; color: #5bc0de; font-family: 'Times New Roman'; text-align: center;} 
+@keyframes blinker {50% {opacity: 0;}}
+
+.Tutorials_Box{background-color:white; box-shadow: 0 0 10px 0px #5bc0de; border: 1px solid #5bc0de; border-radius:20px;
+            padding: 30px 30px 5px 30px;}
+
+
+
+.Topic_Area{border: 1px solid #5bc0de; margin: 7px 3px 30px 3px; box-shadow: 0 0 10px 0px #5bc0de; padding-bottom: 10px; border-radius: 15px;}
+.Topic_Area h3{margin-top: 12px; text-align: left;}
+#TRhr{width: 100%; height: 1px; background-color: #5bc0de; margin-top: 15px;}
+
+
+
+
+#Subject{background-color: white; border: 1px solid #5bc0de; color: #5bc0de; border-radius: 15px; height: auto;
+         width: 97px; margin: 0px 5px 10px 5px; text-decoration: none;}
+#Subject img{margin-top: 5px;}
+#Subject p{margin-bottom: 0px; font-size: 18px;}
+#Subject:hover{box-shadow: 0 0 10px 0px #5bc0de;}
+#More{float: right; margin-top: 10px; padding: -10px; width: 70px; border: none; background-color: #5bc0de; 
+      color: white; border: 1px solid #5bc0de; font-size: 15px;}
+#More:hover{background-color: white; color: #5bc0de; border-color: #5bc0de;}
+
+
+/*---Services--------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*---About--------------------------------------------------------------------------------------------------*/
+
+.Fhr{border: 2px solid white;}
+
+.footer {position: relative; padding-top: 10px; background-color: #2d6a7c;}
+
+.About_Teachpoint{position: relative; margin-bottom: 25px; color: #ffffff;}
+.About_Teachpoint h2{position: relative; margin-bottom: 20px; padding-bottom: 10px; font-weight: 700px; color: #eeeeee;}
+.About_Teachpoint p{color: white; text-align: justify;}
+.About_Teachpoint_Social{position: relative; margin-top: 20px;}
+
+.About_Teachpoint_Social .TW {display: inline-block; width: 35px; height: 35px; padding: 6px 0; text-align: center; 
+                              color: #ffffff;font-size: 14px; border: 1px solid #ffffff; border-radius: 35px; 
+                              background-color: #1DA1F2;}
+
+.About_Teachpoint_Social .FB {display: inline-block; width: 35px; height: 35px; padding: 6px 0; text-align: center;
+                              color: #ffffff;font-size: 14px; border: 1px solid #ffffff; border-radius: 35px; 
+                              background-color: #4267B2;}
+
+.About_Teachpoint_Social .YT {display: inline-block; width: 35px; height: 35px; padding: 6px 0; text-align: center;
+                              color: #FF0000;font-size: 14px; border: 1px solid #FF0000; border-radius: 35px; 
+                              background-color: #ffffff;}
+
+.About_Teachpoint_Social .Insta {display: inline-block; width: 35px; height: 35px; padding: 6px 0; text-align: center;
+                                 color: red; font-size: 14px; border: 1px solid #bc2a8d; border-radius: 35px; 
+                                 background-color: white;}
+   
+.About_Teachpoint_Social .LinkD {display: inline-block; width: 35px; height: 35px; padding: 6px 0; text-align: center;
+                                 color: #ffffff;font-size: 14px; border: 1px solid #ffffff; border-radius: 35px; 
+                                 background-color: #0077b5;}
+
+
+.ContactUs{position: relative; margin-bottom: 40px; color: #ffffff;}
+.ContactUs h2{position: relative; margin-bottom: 20px; padding-bottom: 10px; font-weight: 700px; color: #eeeeee;}
+.ContactUs p{color: white;}
+
+.Some_Tutorials{position: relative; margin-bottom: 40px; color: #ffffff;}
+.Some_Tutorials h2{position: relative; margin-bottom: 20px; padding-bottom: 10px; font-weight: 700px; color: #ffffff;}
+.Some_Tutorials a{display: block; margin-bottom: 6px; padding-left: 15px; color: #ffffff; text-decoration: none;}
+
+.More_About_Us{position: relative; margin-bottom: 40px; color: #ffffff;}
+.More_About_Us h2{position: relative; margin-bottom: 20px; padding-bottom: 10px; font-weight: 700px; color: #ffffff;}
+.More_About_Us a{display: block; margin-bottom: 6px; padding-left: 15px; color: #ffffff; text-decoration: none;}
+
+.Copyright {position: relative; text-align: center; padding: 25px 0; background-color: rgba(0, 0, 0, 0.267);}
+.Copyright .Text p {margin: 0px; padding: 0px; font-size: 19px; font-family: 'Times New Roman', Times, serif; color: white;}
+.Copyright .Text p a{text-decoration: none; color: #5bc0de; border: 1px solid transparent; border-radius: 50px; padding: 5px;}
+.Copyright .Text p a:hover{border: 1px solid #5bc0de; border-radius: 50px; padding: 5px; transition: 0.3s;}
+
+
+/*---Go To Top Scroll---------------------------------------------------------------------------------------------*/
+
+.S{position: fixed; color: #5bc0de; bottom: 10px; right: 10px; font-size: 20px; background-color: white;
+   padding: 5px 7px 0px 7px; border-radius: 50%; cursor: pointer; border: 1px solid #5bc0de; opacity: 0;}
+   
+.S:hover{box-shadow: 0 0 10px 0px #5bc0de;}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
